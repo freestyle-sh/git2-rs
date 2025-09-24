@@ -9,7 +9,7 @@ use libc::{c_char, c_int, c_uchar, c_uint, c_ushort, c_void, size_t};
 use libssh2_sys as libssh2;
 use std::ffi::CStr;
 
-pub const GIT_OID_RAWSZ: usize = 20;
+pub const GIT_OID_RAWSZ: usize = 40;
 pub const GIT_OID_HEXSZ: usize = GIT_OID_RAWSZ * 2;
 pub const GIT_CLONE_OPTIONS_VERSION: c_uint = 1;
 pub const GIT_STASH_APPLY_OPTIONS_VERSION: c_uint = 1;
